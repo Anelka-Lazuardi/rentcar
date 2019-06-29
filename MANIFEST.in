@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include rentcar *.css
+recursive-include rentcar *.csv
+recursive-include rentcar *.html
+recursive-include rentcar *.ico
+recursive-include rentcar *.js
+recursive-include rentcar *.json
+recursive-include rentcar *.md
+recursive-include rentcar *.png
+recursive-include rentcar *.py
+recursive-include rentcar *.svg
+recursive-include rentcar *.txt
+recursive-exclude rentcar *.pyc
