@@ -2,15 +2,15 @@
 // rename this file from _test_[name] to test_[name] to activate
 // and remove above this line
 
-QUnit.test("test: Master Merk Mobil", function (assert) {
+QUnit.test("test: Mobil Kembali Line", function (assert) {
 	let done = assert.async();
 
 	// number of asserts
 	assert.expect(1);
 
 	frappe.run_serially([
-		// insert a new Master Merk Mobil
-		() => frappe.tests.make('Master Merk Mobil', [
+		// insert a new Mobil Kembali Line
+		() => frappe.tests.make('Mobil Kembali Line', [
 			// values to be set
 			{key: 'value'}
 		]),
