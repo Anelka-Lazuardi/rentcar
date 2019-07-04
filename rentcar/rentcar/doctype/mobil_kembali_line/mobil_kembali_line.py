@@ -6,5 +6,5 @@ from __future__ import unicode_literals
 import frappe
 from frappe.model.document import Document
 
-class MasterMerkMobil(Document):
+class MobilKembaliLine(Document):
 	pass
