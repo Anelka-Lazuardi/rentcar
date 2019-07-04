@@ -119,41 +119,14 @@
    "bold": 0, 
    "collapsible": 0, 
    "columns": 0, 
+<<<<<<< HEAD
    "fetch_from": "id_customer.email", 
    "fieldname": "email_customer", 
    "fieldtype": "Data", 
-   "hidden": 0, 
-   "ignore_user_permissions": 0, 
-   "ignore_xss_filter": 0, 
-   "in_filter": 0, 
-   "in_global_search": 0, 
-   "in_list_view": 0, 
-   "in_standard_filter": 0, 
-   "label": "Email Customer", 
-   "length": 0, 
-   "no_copy": 0, 
-   "permlevel": 0, 
-   "precision": "", 
-   "print_hide": 0, 
-   "print_hide_if_no_value": 0, 
-   "read_only": 0, 
-   "remember_last_selected_value": 0, 
-   "report_hide": 0, 
-   "reqd": 0, 
-   "search_index": 0, 
-   "set_only_once": 0, 
-   "translatable": 0, 
-   "unique": 0
-  }, 
-  {
-   "allow_bulk_edit": 0, 
-   "allow_in_quick_entry": 0, 
-   "allow_on_submit": 0, 
-   "bold": 0, 
-   "collapsible": 0, 
-   "columns": 0, 
+=======
    "fieldname": "cb_1", 
    "fieldtype": "Column Break", 
+>>>>>>> 95812f17d901be1970f5c6f7509e6abf3a95a8ac
    "hidden": 0, 
    "ignore_user_permissions": 0, 
    "ignore_xss_filter": 0, 
@@ -161,6 +134,10 @@
    "in_global_search": 0, 
    "in_list_view": 0, 
    "in_standard_filter": 0, 
+<<<<<<< HEAD
+   "label": "Email Customer", 
+=======
+>>>>>>> 95812f17d901be1970f5c6f7509e6abf3a95a8ac
    "length": 0, 
    "no_copy": 0, 
    "permlevel": 0, 
@@ -357,6 +334,41 @@
    "in_standard_filter": 0, 
    "length": 0, 
    "no_copy": 0, 
+<<<<<<< HEAD
+   "options": "Request Mobil", 
+=======
+>>>>>>> 95812f17d901be1970f5c6f7509e6abf3a95a8ac
+   "permlevel": 0, 
+   "precision": "", 
+   "print_hide": 0, 
+   "print_hide_if_no_value": 0, 
+   "read_only": 0, 
+   "remember_last_selected_value": 0, 
+   "report_hide": 0, 
+   "reqd": 0, 
+   "search_index": 0, 
+   "set_only_once": 0, 
+   "translatable": 0, 
+   "unique": 0
+  }, 
+  {
+   "allow_bulk_edit": 0, 
+   "allow_in_quick_entry": 0, 
+   "allow_on_submit": 0, 
+   "bold": 0, 
+   "collapsible": 0, 
+   "columns": 0, 
+   "fieldname": "section_break_10", 
+   "fieldtype": "Section Break", 
+   "hidden": 0, 
+   "ignore_user_permissions": 0, 
+   "ignore_xss_filter": 0, 
+   "in_filter": 0, 
+   "in_global_search": 0, 
+   "in_list_view": 0, 
+   "in_standard_filter": 0, 
+   "length": 0, 
+   "no_copy": 0, 
    "permlevel": 0, 
    "precision": "", 
    "print_hide": 0, 
@@ -409,40 +421,13 @@
    "bold": 0, 
    "collapsible": 0, 
    "columns": 0, 
+<<<<<<< HEAD
    "fieldname": "tanggal_kembali", 
    "fieldtype": "Date", 
-   "hidden": 0, 
-   "ignore_user_permissions": 0, 
-   "ignore_xss_filter": 0, 
-   "in_filter": 0, 
-   "in_global_search": 0, 
-   "in_list_view": 0, 
-   "in_standard_filter": 0, 
-   "label": "Tanggal Kembali", 
-   "length": 0, 
-   "no_copy": 0, 
-   "permlevel": 0, 
-   "precision": "", 
-   "print_hide": 0, 
-   "print_hide_if_no_value": 0, 
-   "read_only": 0, 
-   "remember_last_selected_value": 0, 
-   "report_hide": 0, 
-   "reqd": 0, 
-   "search_index": 0, 
-   "set_only_once": 0, 
-   "translatable": 0, 
-   "unique": 0
-  }, 
-  {
-   "allow_bulk_edit": 0, 
-   "allow_in_quick_entry": 0, 
-   "allow_on_submit": 0, 
-   "bold": 0, 
-   "collapsible": 0, 
-   "columns": 0, 
+=======
    "fieldname": "column_break_13", 
    "fieldtype": "Column Break", 
+>>>>>>> 95812f17d901be1970f5c6f7509e6abf3a95a8ac
    "hidden": 0, 
    "ignore_user_permissions": 0, 
    "ignore_xss_filter": 0, 
@@ -450,6 +435,10 @@
    "in_global_search": 0, 
    "in_list_view": 0, 
    "in_standard_filter": 0, 
+<<<<<<< HEAD
+   "label": "Tanggal Kembali", 
+=======
+>>>>>>> 95812f17d901be1970f5c6f7509e6abf3a95a8ac
    "length": 0, 
    "no_copy": 0, 
    "permlevel": 0, 
@@ -472,8 +461,13 @@
    "bold": 0, 
    "collapsible": 0, 
    "columns": 0, 
+<<<<<<< HEAD
+   "fieldname": "column_break_13", 
+   "fieldtype": "Column Break", 
+=======
    "fieldname": "periode_sewa", 
    "fieldtype": "Data", 
+>>>>>>> 95812f17d901be1970f5c6f7509e6abf3a95a8ac
    "hidden": 0, 
    "ignore_user_permissions": 0, 
    "ignore_xss_filter": 0, 
@@ -481,9 +475,54 @@
    "in_global_search": 0, 
    "in_list_view": 0, 
    "in_standard_filter": 0, 
+<<<<<<< HEAD
+=======
    "label": "Periode Sewa", 
+>>>>>>> 95812f17d901be1970f5c6f7509e6abf3a95a8ac
    "length": 0, 
    "no_copy": 0, 
+   "permlevel": 0, 
+   "precision": "", 
+   "print_hide": 0, 
+   "print_hide_if_no_value": 0, 
+   "read_only": 0, 
+   "remember_last_selected_value": 0, 
+   "report_hide": 0, 
+   "reqd": 0, 
+   "search_index": 0, 
+   "set_only_once": 0, 
+   "translatable": 0, 
+   "unique": 0
+  }, 
+  {
+   "allow_bulk_edit": 0, 
+   "allow_in_quick_entry": 0, 
+   "allow_on_submit": 0, 
+   "bold": 0, 
+   "collapsible": 0, 
+   "columns": 0, 
+<<<<<<< HEAD
+   "fieldname": "periode_sewa", 
+   "fieldtype": "Data", 
+=======
+   "fieldname": "order_driver", 
+   "fieldtype": "Check", 
+>>>>>>> 95812f17d901be1970f5c6f7509e6abf3a95a8ac
+   "hidden": 0, 
+   "ignore_user_permissions": 0, 
+   "ignore_xss_filter": 0, 
+   "in_filter": 0, 
+   "in_global_search": 0, 
+   "in_list_view": 0, 
+   "in_standard_filter": 0, 
+<<<<<<< HEAD
+   "label": "Periode Sewa", 
+=======
+   "label": "Order Driver?", 
+>>>>>>> 95812f17d901be1970f5c6f7509e6abf3a95a8ac
+   "length": 0, 
+   "no_copy": 0, 
+   "options": "", 
    "permlevel": 0, 
    "precision": "", 
    "print_hide": 0, 
@@ -535,8 +574,14 @@
    "bold": 0, 
    "collapsible": 0, 
    "columns": 0, 
+<<<<<<< HEAD
    "fieldname": "order_driver", 
    "fieldtype": "Check", 
+=======
+   "depends_on": "order_driver", 
+   "fieldname": "id_driver", 
+   "fieldtype": "Link", 
+>>>>>>> 95812f17d901be1970f5c6f7509e6abf3a95a8ac
    "hidden": 0, 
    "ignore_user_permissions": 0, 
    "ignore_xss_filter": 0, 
@@ -569,8 +614,14 @@
    "collapsible": 0, 
    "columns": 0, 
    "depends_on": "order_driver", 
+<<<<<<< HEAD
    "fieldname": "id_driver", 
    "fieldtype": "Link", 
+=======
+   "fetch_from": "id_driver.nama_driver", 
+   "fieldname": "nama_driver", 
+   "fieldtype": "Data", 
+>>>>>>> 95812f17d901be1970f5c6f7509e6abf3a95a8ac
    "hidden": 0, 
    "ignore_user_permissions": 0, 
    "ignore_xss_filter": 0, 
@@ -586,7 +637,7 @@
    "precision": "", 
    "print_hide": 0, 
    "print_hide_if_no_value": 0, 
-   "read_only": 0, 
+   "read_only": 1, 
    "remember_last_selected_value": 0, 
    "report_hide": 0, 
    "reqd": 0, 
@@ -603,8 +654,13 @@
    "collapsible": 0, 
    "columns": 0, 
    "depends_on": "order_driver", 
+<<<<<<< HEAD
    "fetch_from": "id_driver.nama_driver", 
    "fieldname": "nama_driver", 
+=======
+   "fetch_from": "id_driver.no_hp_driver", 
+   "fieldname": "no_hp_driver", 
+>>>>>>> 95812f17d901be1970f5c6f7509e6abf3a95a8ac
    "fieldtype": "Data", 
    "hidden": 0, 
    "ignore_user_permissions": 0, 
@@ -636,10 +692,17 @@
    "bold": 0, 
    "collapsible": 0, 
    "columns": 0, 
+<<<<<<< HEAD
    "depends_on": "order_driver", 
    "fetch_from": "id_driver.no_hp_driver", 
    "fieldname": "no_hp_driver", 
    "fieldtype": "Data", 
+=======
+   "default": "250000", 
+   "depends_on": "order_driver", 
+   "fieldname": "biaya_driver", 
+   "fieldtype": "Currency", 
+>>>>>>> 95812f17d901be1970f5c6f7509e6abf3a95a8ac
    "hidden": 0, 
    "ignore_user_permissions": 0, 
    "ignore_xss_filter": 0, 
@@ -855,6 +918,38 @@
    "set_only_once": 0, 
    "translatable": 0, 
    "unique": 0
+  }, 
+  {
+   "allow_bulk_edit": 0, 
+   "allow_in_quick_entry": 0, 
+   "allow_on_submit": 0, 
+   "bold": 0, 
+   "collapsible": 0, 
+   "columns": 0, 
+   "fieldname": "amended_from", 
+   "fieldtype": "Link", 
+   "hidden": 0, 
+   "ignore_user_permissions": 0, 
+   "ignore_xss_filter": 0, 
+   "in_filter": 0, 
+   "in_global_search": 0, 
+   "in_list_view": 0, 
+   "in_standard_filter": 0, 
+   "label": "Amended From", 
+   "length": 0, 
+   "no_copy": 1, 
+   "options": "Kontrak Payung", 
+   "permlevel": 0, 
+   "print_hide": 1, 
+   "print_hide_if_no_value": 0, 
+   "read_only": 1, 
+   "remember_last_selected_value": 0, 
+   "report_hide": 0, 
+   "reqd": 0, 
+   "search_index": 0, 
+   "set_only_once": 0, 
+   "translatable": 0, 
+   "unique": 0
   }
  ], 
  "has_web_view": 0, 
@@ -867,7 +962,11 @@
  "issingle": 0, 
  "istable": 0, 
  "max_attachments": 0, 
+<<<<<<< HEAD
  "modified": "2019-07-02 16:10:49.064324", 
+=======
+ "modified": "2019-06-30 09:06:07.269987", 
+>>>>>>> 95812f17d901be1970f5c6f7509e6abf3a95a8ac
  "modified_by": "Administrator", 
  "module": "Rentcar", 
  "name": "Kontrak Payung", 

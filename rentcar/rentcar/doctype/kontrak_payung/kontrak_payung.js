@@ -35,6 +35,7 @@ frappe.ui.form.on('Kontrak Payung', 'tanggal_pinjam', function (frm) {
 				if (frm.doc.tanggal_pinjam != undefined) {
 
 					if (mem_type == "Normal") {
+<<<<<<< HEAD
 						frm.set_value('tanggal_kembali', frappe.datetime.add_days(frm.doc.tanggal_pinjam, 1));
 						frm.set_value('periode_sewa', "1 Hari");
 					}
@@ -45,6 +46,18 @@ frappe.ui.form.on('Kontrak Payung', 'tanggal_pinjam', function (frm) {
 					else if (mem_type == "VVIP") {
 						frm.set_value('tanggal_kembali', frappe.datetime.add_days(frm.doc.tanggal_pinjam, 3));
 						frm.set_value('periode_sewa', "3 Hari");
+=======
+						frm.set_value('tanggal_kembali', frappe.datetime.add_days(frm.doc.tanggal_pinjam, 3));
+						frm.set_value('periode_sewa', "3 Hari");
+					}
+					else if (mem_type == "VIP") {
+						frm.set_value('tanggal_kembali', frappe.datetime.add_days(frm.doc.tanggal_pinjam, 5));
+						frm.set_value('periode_sewa', "5 Hari");
+					}
+					else if (mem_type == "VVIP") {
+						frm.set_value('tanggal_kembali', frappe.datetime.add_days(frm.doc.tanggal_pinjam, 7));
+						frm.set_value('periode_sewa', "7 Hari");
+>>>>>>> 95812f17d901be1970f5c6f7509e6abf3a95a8ac
 					}
 				}
 			}
@@ -52,8 +65,11 @@ frappe.ui.form.on('Kontrak Payung', 'tanggal_pinjam', function (frm) {
 
 		});
 		if (frm.doc.data_mobil) {
+<<<<<<< HEAD
 			console.log(frm.doc.data_mobil);
 			
+=======
+>>>>>>> 95812f17d901be1970f5c6f7509e6abf3a95a8ac
 			Object.size = function(obj) {
 				var size = 0, key;
 				for (key in obj) {
@@ -63,8 +79,15 @@ frappe.ui.form.on('Kontrak Payung', 'tanggal_pinjam', function (frm) {
 			};
 			var size = Object.size(frm.doc.data_mobil);
 			// console.log(size);
+<<<<<<< HEAD
 			if (size < 2 ) {
 				var b = eval(frm.doc.data_mobil[0]['harga_mobil'])
+=======
+			if (size == 1) {
+				for (let index = 0; index <= size ; index++) {
+					var b = eval (frm.doc.data_mobil[index]['harga_mobil']);
+				}
+>>>>>>> 95812f17d901be1970f5c6f7509e6abf3a95a8ac
 				frm.set_value('harga_total', b);
 			}
 			else{
@@ -77,11 +100,45 @@ frappe.ui.form.on('Kontrak Payung', 'tanggal_pinjam', function (frm) {
 		}
 			
 	}	
+<<<<<<< HEAD
+=======
 	}
 
 
 
 });
+frappe.ui.form.on('Kontrak Payung', 'id_driver', function (frm) {
+
+	if (frm.doc.biaya_driver) {
+		frm.set_value('harga_total',eval(frm.doc.harga_total) +(frm.doc.biaya_driver));
+
+		
+	}
+
+});
+
+frappe.ui.form.on('Kontrak Payung', 'total_bayar', function (frm) {
+
+	if (frm.doc.total_bayar) {
+		frm.set_value('kekurangan_bayar',eval(frm.doc.harga_total) -(frm.doc.total_bayar));
+
+		
+	}
+
+});
+cur_frm.set_query('id_mobil', 'data_mobil', function (doc, cdt, cdn) {
+	var d = locals[cdt][cdn];
+	return {
+		filters: [
+			['Master Mobil', 'status_mobil', '=', 'Available']
+		]
+>>>>>>> 95812f17d901be1970f5c6f7509e6abf3a95a8ac
+	}
+
+
+
+});
+<<<<<<< HEAD
 frappe.ui.form.on('Kontrak Payung', 'id_driver', function (frm) {
 
 	if (frm.doc.biaya_driver) {
@@ -116,6 +173,8 @@ cur_frm.set_query('id_mobil', 'data_mobil', function (doc, cdt, cdn) {
 		]
 	}
 });
+=======
+>>>>>>> 95812f17d901be1970f5c6f7509e6abf3a95a8ac
 
 
 

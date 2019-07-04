@@ -86,6 +86,7 @@
    "bold": 0, 
    "collapsible": 0, 
    "columns": 0, 
+<<<<<<< HEAD
    "fetch_from": "id_customer.email", 
    "fieldname": "email_custom", 
    "fieldtype": "Data", 
@@ -119,6 +120,8 @@
    "bold": 0, 
    "collapsible": 0, 
    "columns": 0, 
+=======
+>>>>>>> 95812f17d901be1970f5c6f7509e6abf3a95a8ac
    "fieldname": "status", 
    "fieldtype": "Select", 
    "hidden": 0, 
@@ -380,7 +383,11 @@
  "issingle": 0, 
  "istable": 0, 
  "max_attachments": 0, 
+<<<<<<< HEAD
  "modified": "2019-07-02 05:38:45.280803", 
+=======
+ "modified": "2019-06-30 11:30:17.118762", 
+>>>>>>> 95812f17d901be1970f5c6f7509e6abf3a95a8ac
  "modified_by": "Administrator", 
  "module": "Rentcar", 
  "name": "Dafatar Pesananan", 
