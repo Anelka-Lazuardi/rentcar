@@ -23,7 +23,6 @@ class KontrakPayung(Document):
             daftar_pesanan.tanggal_kembali = self.tanggal_kembali
             daftar_pesanan.total_harga = self.harga_total
             daftar_pesanan.kurang_bayar = self.kekurangan_bayar
-<<<<<<< HEAD
             daftar_pesanan.email_custom = self.email_customer
             for i in self.data_mobil:
                 daftar_pesanan.append('data_sewa_mobil',{
@@ -35,18 +34,6 @@ class KontrakPayung(Document):
                 daftar_pesanan.save()
                 new_pinjaman = frappe.get_doc("Dafatar Pesananan",daftar_pesanan.name)
                 frappe.msgprint('Data Berhasil Di Buat')
-=======
-            for i in self.data_mobil:
-                daftar_pesanan.append('data_sewa_mobil',{
-				'id_mobil':i.id_mobil,
-					'merk_mobil':i.merk_mobil,
-					'no_polisi':i.no_polisi,
-					'harga_mobil':i.harga_mobil
-				 })
-                daftar_pesanan.save()
-                new_pinjaman = frappe.get_doc("Dafatar Pesananan",daftar_pesanan.name)
-                frappe.msgprint('Data Berhasil DI Buat')
->>>>>>> 95812f17d901be1970f5c6f7509e6abf3a95a8ac
                 self.change_status_mobil()
    
     
