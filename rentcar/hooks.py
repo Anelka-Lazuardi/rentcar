@@ -120,15 +120,4 @@ app_license = "MIT"
 # 	"frappe.desk.doctype.event.event.get_events": "rentcar.event.get_events"
 # }
 
-fixtures=[
-    {"doctype":"Workflow"},
-    {"doctype":"Role"},
-    {"doctype":"User"},
-    {"doctype":"Mobil"},
-    {"doctype":"Tipe Mobil"},
-    {"doctype":"Customer"},
-    {"doctype":"Driver"},
-    {"doctype":"Kontrak Payung"},
-    {"doctype":"Pengembalian Mobil"},
-    {"doctype":"Dafatar Pesananan"}
-]
+
